@@ -1,6 +1,6 @@
 # web_study
 #project dir struct description
-|-src/main/java 	application library sources - java源代码文件
+|-src/main/java 	application library sources - java源代码文件 
 |-src/main/resources 	application library resources - 资源库，会自动复制到classes文件夹下
 |-src/main/filters 	resources filter files - 资源过滤文件
 |-src/main/assembly 	assembly descriptor - 组件的描述配置，如何打包

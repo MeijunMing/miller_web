@@ -18,3 +18,42 @@
 |-pom.xml　　　　　　工程描述文件      
 |-LICENSE.txt　　　　license     
 |-README.md　　　　　read me              
+
+#create web project use java language 
+##framework:
+    springmvc
+    spring
+    mybatis
+    mysql
+    redis
+    kafka
+    storm
+    spark
+    hadoop
+    ............
+#一、构建web项目环境：
+##(1)首先需要给项目变成j2ee项目,加入相应的框架就可以,并更改pom文件(用于项目查找web-info):
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.5</version>
+                <configuration>
+                    <webResources>
+                        <resource>
+                            <directory>web</directory>
+                        </resource>
+                    </webResources>
+                </configuration>
+            </plugin>
+##(2)给pom文件加入项目需要的jar包
+
+##(3)配置web.xml
+
+
+##mysql struct 
+  
+
+
+
+
+
